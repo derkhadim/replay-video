@@ -1,0 +1,17 @@
+{
+  "name": "marodi_clone",
+  "description": "",
+  "main": "",
+  "authors": [
+    "derkhadim <dermouhamadou@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
