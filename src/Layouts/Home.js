@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import Movies from './../Components/Movies';
 
 export default class Home extends Component {
 	render() {
 		return (
-			<h1>Home</h1>
+			<Movies />
 		)
 	}
 }
