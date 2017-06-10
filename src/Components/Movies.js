@@ -110,7 +110,7 @@ export default class Movies extends Component {
 						return (
 							<div className="col-md-4" key={item.id}>
 								<div className="card">
-									{item.source}
+									<iframe width="100%" height="315" src={"https://www.youtube.com/embed/" + item.source } frameBorder="0" allowFullScreen></iframe>
 									<div className="card-footer">
 										<h4>{item.title}</h4>
 										<button className="btn btn-danger" onClick={ () => {this.removeMovie(item.id)} }>Suprimer</button>
